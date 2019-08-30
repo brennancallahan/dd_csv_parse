@@ -13,7 +13,7 @@ site_numbers = []
 # holds all personal id numbers to check for duplicates before creating a new one
 id_numbers = []
 
-data = CSV.read('/Users/brennancallahan/Desktop/DrugDev/source.csv', headers: true)
+data = CSV.read('source.csv', headers: true)
 data.each do |row|
 
     # site data
