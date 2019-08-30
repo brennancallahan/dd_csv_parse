@@ -5,8 +5,6 @@ require_relative 'person.rb'
 
 sites = []
 people = []
-prepared_site_data = []
-prepared_people_data = []
 
 # holds all site numbers to check for duplicates before creating a new one
 site_numbers = []
@@ -65,40 +63,3 @@ while a < people.length do
     puts "POST /person\n   external_identifier: #{people[a].id_number}\n   email: #{people[a].email}\n   first_name: #{people[a].first_name}\n   last_name: #{people[a].last_name}\n   roles: #{people[a].roles.join(", ")}\n\n"
     a += 1
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# sites.each do |site|
-#     site_data = {
-#         site_number: site.site_number,
-#         facility_name: site.facility_name,
-#         country: site.country,
-#         address: site.address
-#     }
-#     prepared_site_data << site_data
-# end
-
-# people.each do |person|
-#     person_data = {
-#         external_identifier: person.id_number,
-#         email: person.email,
-#         first_name: person.first_name,
-#         last_name: person.last_name,
-#         roles: person.role
-#     }
-#     prepared_people_data << person_data
-# end
