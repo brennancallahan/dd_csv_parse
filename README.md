@@ -1,8 +1,8 @@
-# dd_csv
+# dd_csv_parse README
 
 This program is intended to parse a provided csv file and programmatically return its contents in the form of mock web calls.
 
-In order to run the program and view the resulting content, clone the repository. In your terminal, navigate to the cloned repo, and run the following:
+In order to run the program and view the resulting content, clone/download the repository. In your terminal, navigate to the cloned repo, and run the following:
 ```ruby code.rb```
 
 The terminal will display the resulting mock web calls.
