@@ -1,4 +1,4 @@
-# dd_csv_parse README
+README
 
 This program is intended to parse a provided csv file and programmatically return its contents in the form of mock web calls.
 
