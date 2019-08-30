@@ -5,7 +5,7 @@ This program is intended to parse a provided csv file and programmatically retur
 In order to run the program and view the resulting content, clone/download the repository. In your terminal, navigate to the cloned repo, and run the following:
 ```ruby code.rb```
 
-# _The terminal will display the resulting mock web calls._
+ _The terminal will display the resulting mock web calls._
 
 -----------
 
